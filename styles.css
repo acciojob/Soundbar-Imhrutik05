@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+#buttons {
+	background-color: #9e71eb;
+	padding: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+button {
+	background-color: #563e80;
+	color: white;
+	padding: 12px 22px;
+	border: none;
+	border-radius: 3px;
+}
+
+.btn: hover {
+	border: 2px solid neon;
+}
